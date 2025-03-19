@@ -1,12 +1,38 @@
-# React + Vite
+# AlterOfficeTask (React + Firebase App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Live Demo link 
+[Click here to view the app](https://task1-89a11.web.app)
 
-Currently, two official plugins are available:
+##  Project Overview  
+Task is a React.js web application with Firebase Authentication. It allows users to manage tasks efficiently with a user-friendly interface.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features  
+✅ User authentication (Google Sign-In)  
+✅ Task creation, editing, and deletion  
+✅ Responsive UI with Tailwind CSS  
+✅ Firebase Hosting for deployment  
 
-## Expanding the ESLint configuration
+##  Setup 1 Instructions  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Clone the repository  
+```bash
+git https://github.com/Avinasha27/AlterOfficeTask.git  
+
+cd AlterOfficeTask
+
+##  Setup 2 Instructions
+
+#  Install dependencies
+npm install
+
+# 3️ Start the development server
+npm run dev
+
+
+#  Challenges & Solutions
+
+Challenge: Firebase authentication issues
+ Solution: Implemented proper Firebase configuration and debugging using Firebase console logs.
+
+ Challenge: UI responsiveness
+ Solution: Used Tailwind CSS for a clean, responsive design.
